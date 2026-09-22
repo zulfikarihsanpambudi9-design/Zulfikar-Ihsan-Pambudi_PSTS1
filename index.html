@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>class meeting SMA ABBS SUKOHARJO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-700 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">
+     CLASS MEETING SMA ABBS SUKOHARJO
+    </h1>
+    <p class="mt-2">
+      Show Your Creatify, Skill and Innovatife ideas
+    </p>
+  </header>
+  <main class="max-w-3xl mx-auto p-6">
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">
+        Registration Form
+      </h2>
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label for="name" class="block mb-1">
+            Student Name
+          </label>        
+        <div class="md:col-span-2">
+          </label>
+          <textarea id="info" name="info"
+            placeholder="enter full your name"
+            class="w-full border rounded-md p-2"></textarea>
+        </div>
+        <div>
+             <fieldset>
+          <legend class="mb-1">Class</legend>
+          <label>
+            <input type="radio" name="X" value="XI">
+             X
+          </label>
+          <label class="ml-3">
+            <input type="radio" name="X" value="XI">
+            XI
+          </label class="m1-3">
+          <input type="radio" name="X"   value="XI">
+          XII
+        </fieldset>
+        </div>
+         <fieldset>
+          <legend class="mb-1">Participantions Type</legend>
+          <label>
+            <input type="radio" name="Individual" value="Team">
+             Individual
+          </label>
+          <label class="m2-3">
+            <input type="radio" name="Individual" value="Team">
+            Team
+        </fieldset>
+        </div>
+      </div>
+        <fieldset>
+          <legend class="mb-1">Gender</legend>
+          <label>
+            <input type="radio" name="gender" value="Male">
+            Male
+          </label>
+          <label class="ml-3">
+            <input type="radio" name="gender" value="Female">
+            Female
+          </label>
+        </fieldset>
+        <div>
+          <label for="event" class="block mb-1">
+            Event
+          </label>
+          <select id="event" name="event"
+            class="w-full border rounded-md p-2">
+            <option>Web Development </option>
+            <option>Iot Project</option>
+            <option>Graphic Design</option>
+            <option>Public Speaking</option>
+            <option>Photograpy</option>
+          </select>
+        </div>
+        <div>
+          <label for="date" class="block mb-1">
+            Registration Date
+          </label>
+          <input id="date" name="date" type="date"
+            class="w-full border rounded-md p-2">
+        </div>
+        <div>
+          <label for="Project Descriptions" class="block mb-2">
+          </label>
+        </div>
+        
+        <div>
+          <label for="phone" class="block mb-1">
+            Contact Nomer
+          </label>
+          <input id="phone" name="phone" type="tel"
+            class="w-full border rounded-md p-2">
+        </div>
+        <div>
+          <label for="participants" class="block mb-1">
+            Number of Participants
+          </label>
+          <input id="participants" name="participants"
+            type="number" min="1"
+            class="w-full border rounded-md p-2">
+        </div>
+        <div class="md:col-span-2">
+          <label for="info" class="block mb-1">
+            Additional Information
+          </label>
+          <textarea id="info" name="info"
+            
+            class="w-full border rounded-md p-2"></textarea>
+        </div>
+        <div class="md:col-span-2">
+          <button type="submit"
+            class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-800">
+            Register Now
+          </button>
+        </div>
+      </form>
+    </section>
+    <section class="bg-white p-6 rounded-lg shadow-md mt-6">
+      <h2 class="text-2xl font-semibold mb-4">
+        Event Participants
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse border border-gray-300">
+          <thead class="bg-blue-700 text-white">
+            <tr>
+              <th class="border p-3">No</th>
+              <th class="border p-3">Name</th>
+              <th class="border p-3">Class</th>
+              <th class="border p-3">Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-100">
+              <td class="border p-3">1</td>
+              <td class="border p-3">Luthfi</td>
+              <td class="border p-3">X.1</td>
+              <td class="border p-3">Web Development</td>
+            </tr>
+             <tbody>
+            <tr class="hover:bg-gray-100">
+              <td class="border p-3">1</td>
+              <td class="border p-3">Iyas</td>
+              <td class="border p-3">X.1</td>
+              <td class="border p-3">Public Speaking</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
